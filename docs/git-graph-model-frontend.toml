@@ -4,8 +4,8 @@
 #  - feature/* + fix/*      = each gets its own color, paired across repos
 
 persistence = [
-    "^shadow/frontend/main$",
     "^main$",
+    "^shadow/frontend/main$",
     "^feature/dashboard$",
     "^fix/header-overflow$",
     "^shadow/frontend/feature/payments$",
@@ -13,9 +13,9 @@ persistence = [
 
 order = [
     "^tags/.*$",
+    "^main$",
     "^shadow/frontend/main$",
     "^shadow/frontend/feature/payments$",
-    "^main$",
     "^feature/dashboard$",
     "^fix/header-overflow$",
 ]
