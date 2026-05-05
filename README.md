@@ -24,18 +24,12 @@ cross-cutting changes she makes directly in the monorepo.
 ## Branch graphs
 
 Lane-based layout (each branch gets its own column, time flows downward — same shape as
-VSCode's Git Graph). Rendered as native SVG by [`mlange-42/git-graph --svg`](https://github.com/mlange-42/git-graph),
-then post-processed to graft commit-hash + message labels alongside each circle (git-graph's
-own SVG output is structure-only). Earlier versions piped the ANSI output through
-[`charmbracelet/freeze`](https://github.com/charmbracelet/freeze) to render the labels, but
-freeze coloured passing-through lane lines as main once a lane's tip scrolled off — creating
-apparent duplicate green/blue lanes; native SVG draws lines only where lanes actually exist
-and avoids that artifact.
-
-A custom git-graph model per repo (vendored under [`docs/`](docs/)) assigns a unique color to
-each *logical* branch via the `[svg_colors]` section — wherever the same content appears (own
-branch, `shadow/<pair>/...` replay), it gets the same color. Three different "main"s show up
-since each repo has its own:
+VSCode's Git Graph). Rendered by piping [`mlange-42/git-graph`](https://github.com/mlange-42/git-graph)
+through [`charmbracelet/freeze`](https://github.com/charmbracelet/freeze) — both purpose-built
+real tools, no hand layout. A custom git-graph model per repo (vendored under
+[`docs/`](docs/)) assigns a unique color to each *logical* branch — wherever the same content
+appears (own branch, `shadow/<pair>/...` replay), it gets the same color. Three different
+"main"s show up since each repo has its own:
 
 | Logical branch (content) | Where it appears | Color |
 | --- | --- | --- |
@@ -70,6 +64,7 @@ logical branches* that share the name:
 # one-time
 gh release download v0.7.0 --repo mlange-42/git-graph --pattern '*windows-amd64*' \
     -D ~/bin/git-graph-tool && tar -xzf ~/bin/git-graph-tool/*.tar.gz -C ~/bin/git-graph-tool/
+winget install charmbracelet.freeze
 mkdir -p ~/AppData/Roaming/git-graph/models
 for r in backend frontend monorepo; do
   cp docs/git-graph-model-$r.toml ~/AppData/Roaming/git-graph/models/shadow-$r.toml
@@ -79,14 +74,10 @@ done
 GG=~/bin/git-graph-tool/git-graph.exe
 for r in backend frontend monorepo; do
   case $r in monorepo) src=. ;; *) src=../sht5-$r ;; esac
-  $GG -p $src --no-pager --color never --style round --wrap none \
-      --format "%h %s [%an]" -m shadow-$r > /tmp/gg-$r-text.txt
-  $GG -p $src --svg --style round --wrap none --format "%h %s [%an]" \
-      -m shadow-$r > /tmp/gg-$r-raw.svg
-  python docs/annotate-svg.py /tmp/gg-$r-text.txt /tmp/gg-$r-raw.svg docs/graph-$r.svg
+  $GG -p $src --no-pager --color always --style round --wrap none \
+      --format "%h%d %s [%an]" -m shadow-$r > /tmp/gg-$r.txt
+  # NOTE: pass file directly + --language ansi. Using --execute "cat ..."
+  # would route through freeze's internal pty which hard-wraps at 80 cols.
+  freeze /tmp/gg-$r.txt --language ansi --output docs/graph-$r.svg
 done
 ```
-
-`docs/annotate-svg.py` reads the text output (one row per commit + connector rows), strips the
-ASCII graph chars, and inserts an SVG `<text>` element next to each commit's circle in the SVG.
-The SVG width is widened so the labels fit without overlapping.
