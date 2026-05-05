@@ -1,0 +1,44 @@
+# Frontend repo view: each branch's color matches its content's color in other repos.
+#  - main                   = THIS repo's main         (bright_green)
+#  - shadow/frontend/main   = mirror of monorepo's main (bright_white)
+#  - feature/* + fix/*      = each gets its own color, paired across repos
+
+persistence = [
+    "^main$",
+    "^shadow/frontend/main$",
+    "^feature/dashboard$",
+    "^fix/header-overflow$",
+    "^shadow/frontend/feature/payments$",
+]
+
+order = [
+    "^tags/.*$",
+    "^main$",
+    "^shadow/frontend/main$",
+    "^feature/dashboard$",
+    "^fix/header-overflow$",
+    "^shadow/frontend/feature/payments$",
+]
+
+# shadow/frontend/feature/payments here = mirror of Mira's monorepo feature/payments -> pink (198)
+[terminal_colors]
+matches = [
+    ["^main$",                              ["bright_green"]],
+    ["^shadow/frontend/main$",              ["bright_white"]],
+    ["^feature/dashboard$",                 ["bright_cyan"]],
+    ["^fix/header-overflow$",               ["bright_black"]],
+    ["^shadow/frontend/feature/payments$",  ["198"]],
+    ["^tags/.*$",                           ["white"]],
+]
+unknown = ["white"]
+
+[svg_colors]
+matches = [
+    ["^main$",                              ["green"]],
+    ["^shadow/frontend/main$",              ["white"]],
+    ["^feature/dashboard$",                 ["turquoise"]],
+    ["^fix/header-overflow$",               ["gray"]],
+    ["^shadow/frontend/feature/payments$",  ["#ff0087"]],
+    ["^tags/.*$",                           ["gray"]],
+]
+unknown = ["gray"]

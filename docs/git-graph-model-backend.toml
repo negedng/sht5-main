@@ -1,0 +1,53 @@
+# Backend repo view: each branch's color matches its content's color in other repos.
+#  - main                  = THIS repo's main         (bright_blue)
+#  - shadow/backend/main   = mirror of monorepo's main (bright_white)
+#  - feature/*             = each gets its own color, paired across repos
+
+persistence = [
+    "^main$",
+    "^shadow/backend/main$",
+    "^feature/auth$",
+    "^feature/database$",
+    "^feature/cors$",
+    "^feature/payments$",
+    "^shadow/backend/feature/payments$",
+]
+
+order = [
+    "^tags/.*$",
+    "^main$",
+    "^shadow/backend/main$",
+    "^feature/auth$",
+    "^feature/database$",
+    "^feature/cors$",
+    "^feature/payments$",
+    "^shadow/backend/feature/payments$",
+]
+
+# feature/payments here = Bea's source branch              -> orange (208)
+# shadow/backend/feature/payments here = mirror of monorepo's feature/payments (Mira's) -> pink (198)
+[terminal_colors]
+matches = [
+    ["^main$",                              ["bright_blue"]],
+    ["^shadow/backend/main$",               ["bright_white"]],
+    ["^feature/auth$",                      ["bright_yellow"]],
+    ["^feature/database$",                  ["bright_red"]],
+    ["^feature/cors$",                      ["bright_magenta"]],
+    ["^feature/payments$",                  ["208"]],
+    ["^shadow/backend/feature/payments$",   ["198"]],
+    ["^tags/.*$",                           ["white"]],
+]
+unknown = ["white"]
+
+[svg_colors]
+matches = [
+    ["^main$",                              ["blue"]],
+    ["^shadow/backend/main$",               ["white"]],
+    ["^feature/auth$",                      ["orange"]],
+    ["^feature/database$",                  ["red"]],
+    ["^feature/cors$",                      ["purple"]],
+    ["^feature/payments$",                  ["#ff8c00"]],
+    ["^shadow/backend/feature/payments$",   ["#ff0087"]],
+    ["^tags/.*$",                           ["gray"]],
+]
+unknown = ["gray"]

@@ -1,0 +1,73 @@
+# Monorepo view: every shadow/<pair>/<branch> mirrors a branch in an external repo.
+#  - main                                  = THIS repo's main          (bright_white)
+#  - shadow/backend/main                   = mirror of backend's main   (bright_blue)
+#  - shadow/frontend/main                  = mirror of frontend's main  (bright_green)
+#  - shadow/backend/feature/auth           = mirror of backend's feature/auth (bright_yellow)
+#  - shadow/backend/feature/database       = mirror of backend's feature/database (bright_red)
+#  - shadow/backend/feature/cors           = mirror of backend's feature/cors (bright_magenta)
+#  - shadow/frontend/feature/dashboard     = mirror of frontend's feature/dashboard (bright_cyan)
+#  - shadow/frontend/fix/header-overflow   = mirror of frontend's fix/header-overflow (bright_black)
+
+persistence = [
+    "^main$",
+    "^shadow/backend/main$",
+    "^shadow/frontend/main$",
+    "^shadow/backend/feature/auth$",
+    "^shadow/backend/feature/database$",
+    "^shadow/backend/feature/cors$",
+    "^shadow/backend/feature/payments$",
+    "^feature/payments$",
+    "^shadow/frontend/feature/payments$",
+    "^shadow/frontend/feature/dashboard$",
+    "^shadow/frontend/fix/header-overflow$",
+]
+
+order = [
+    "^tags/.*$",
+    "^main$",
+    "^shadow/backend/main$",
+    "^shadow/frontend/main$",
+    "^shadow/backend/feature/auth$",
+    "^shadow/backend/feature/database$",
+    "^shadow/backend/feature/cors$",
+    "^shadow/backend/feature/payments$",
+    "^feature/payments$",
+    "^shadow/frontend/feature/payments$",
+    "^shadow/frontend/feature/dashboard$",
+    "^shadow/frontend/fix/header-overflow$",
+]
+
+# feature/payments here = Mira's source branch (originated in monorepo)         -> pink (198)
+# shadow/frontend/feature/payments here = mirror of Mira's branch via frontend pair -> pink (198, same logical branch)
+# shadow/backend/feature/payments here = mirror of Bea's source feature/payments -> orange (208)
+[terminal_colors]
+matches = [
+    ["^main$",                                  ["bright_white"]],
+    ["^shadow/backend/main$",                   ["bright_blue"]],
+    ["^shadow/frontend/main$",                  ["bright_green"]],
+    ["^shadow/backend/feature/auth$",           ["bright_yellow"]],
+    ["^shadow/backend/feature/database$",       ["bright_red"]],
+    ["^shadow/backend/feature/cors$",           ["bright_magenta"]],
+    ["^shadow/backend/feature/payments$",       ["208"]],
+    ["^(feature/payments|shadow/frontend/feature/payments)$", ["198"]],
+    ["^shadow/frontend/feature/dashboard$",     ["bright_cyan"]],
+    ["^shadow/frontend/fix/header-overflow$",   ["bright_black"]],
+    ["^tags/.*$",                               ["white"]],
+]
+unknown = ["white"]
+
+[svg_colors]
+matches = [
+    ["^main$",                                  ["white"]],
+    ["^shadow/backend/main$",                   ["blue"]],
+    ["^shadow/frontend/main$",                  ["green"]],
+    ["^shadow/backend/feature/auth$",           ["orange"]],
+    ["^shadow/backend/feature/database$",       ["red"]],
+    ["^shadow/backend/feature/cors$",           ["purple"]],
+    ["^shadow/backend/feature/payments$",       ["#ff8c00"]],
+    ["^(feature/payments|shadow/frontend/feature/payments)$", ["#ff0087"]],
+    ["^shadow/frontend/feature/dashboard$",     ["turquoise"]],
+    ["^shadow/frontend/fix/header-overflow$",   ["gray"]],
+    ["^tags/.*$",                               ["gray"]],
+]
+unknown = ["gray"]
