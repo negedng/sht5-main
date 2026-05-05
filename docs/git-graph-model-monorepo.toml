@@ -24,17 +24,17 @@ persistence = [
 
 order = [
     "^tags/.*$",
-    "^main$",
     "^shadow/backend/main$",
     "^shadow/frontend/main$",
     "^shadow/backend/feature/auth$",
     "^shadow/backend/feature/database$",
     "^shadow/backend/feature/cors$",
     "^shadow/backend/feature/payments$",
-    "^feature/payments$",
     "^shadow/frontend/feature/payments$",
     "^shadow/frontend/feature/dashboard$",
     "^shadow/frontend/fix/header-overflow$",
+    "^main$",
+    "^feature/payments$",
 ]
 
 # feature/payments here = Mira's source branch (originated in monorepo)         -> pink (198)

@@ -13,11 +13,11 @@ persistence = [
 
 order = [
     "^tags/.*$",
-    "^main$",
     "^shadow/frontend/main$",
+    "^shadow/frontend/feature/payments$",
+    "^main$",
     "^feature/dashboard$",
     "^fix/header-overflow$",
-    "^shadow/frontend/feature/payments$",
 ]
 
 # shadow/frontend/feature/payments here = mirror of Mira's monorepo feature/payments -> pink (198)

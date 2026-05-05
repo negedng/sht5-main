@@ -15,13 +15,13 @@ persistence = [
 
 order = [
     "^tags/.*$",
-    "^main$",
     "^shadow/backend/main$",
+    "^shadow/backend/feature/payments$",
+    "^main$",
     "^feature/auth$",
     "^feature/database$",
     "^feature/cors$",
     "^feature/payments$",
-    "^shadow/backend/feature/payments$",
 ]
 
 # feature/payments here = Bea's source branch              -> orange (208)
