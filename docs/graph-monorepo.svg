@@ -1,116 +1,167 @@
-<svg height="750" viewBox="0 0 165 750" width="165" xmlns="http://www.w3.org/2000/svg">
+<svg height="765" viewBox="0 0 851 765" width="851" xmlns="http://www.w3.org/2000/svg">
 <line stroke="white" stroke-width="1" x1="135" x2="135" y1="15" y2="30"/>
 <circle cx="135" cy="15" fill="white" r="4" stroke="white" stroke-width="1"/>
 <line stroke="white" stroke-width="1" x1="135" x2="135" y1="30" y2="45"/>
 <circle cx="135" cy="30" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="45" y2="90"/>
-<path d="M135,45 L135,45 Q135,52.5,82.5,52.5 Q30,52.5,30,60 L30,60" fill="none" stroke="green" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="45" y2="60"/>
 <circle cx="135" cy="45" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="green" stroke-width="1" x1="30" x2="30" y1="60" y2="75"/>
-<circle cx="30" cy="60" fill="green" r="4" stroke="green" stroke-width="1"/>
-<line stroke="green" stroke-width="1" x1="30" x2="30" y1="75" y2="255"/>
-<path d="M30,75 L30,75 Q30,82.5,82.5,82.5 Q135,82.5,135,90 L135,90" fill="none" stroke="white" stroke-width="1"/>
-<circle cx="30" cy="75" fill="white" r="4" stroke="green" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="90" y2="105"/>
-<circle cx="135" cy="90" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="105" y2="180"/>
-<path d="M135,105 L135,105 Q135,112.5,75,112.5 Q15,112.5,15,120 L15,120" fill="none" stroke="blue" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="60" y2="105"/>
+<path d="M135,60 L135,60 Q135,67.5,82.5,67.5 Q30,67.5,30,75 L30,75" fill="none" stroke="green" stroke-width="1"/>
+<circle cx="135" cy="60" fill="white" r="4" stroke="white" stroke-width="1"/>
+<line stroke="green" stroke-width="1" x1="30" x2="30" y1="75" y2="90"/>
+<circle cx="30" cy="75" fill="green" r="4" stroke="green" stroke-width="1"/>
+<line stroke="green" stroke-width="1" x1="30" x2="30" y1="90" y2="270"/>
+<path d="M30,90 L30,90 Q30,97.5,82.5,97.5 Q135,97.5,135,105 L135,105" fill="none" stroke="white" stroke-width="1"/>
+<circle cx="30" cy="90" fill="white" r="4" stroke="green" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="105" y2="120"/>
 <circle cx="135" cy="105" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="120" y2="195"/>
-<path d="M15,120 L15,120 Q15,127.5,52.5,127.5 Q90,127.5,90,135 L90,135" fill="none" stroke="#ff8c00" stroke-width="1"/>
-<circle cx="15" cy="120" fill="white" r="4" stroke="blue" stroke-width="1"/>
-<line stroke="#ff8c00" stroke-width="1" x1="90" x2="90" y1="135" y2="165"/>
-<path d="M90,135 L90,135 Q90,142.5,120,142.5 Q150,142.5,150,150 L150,150" fill="none" stroke="#ff0087" stroke-width="1"/>
-<circle cx="90" cy="135" fill="white" r="4" stroke="#ff8c00" stroke-width="1"/>
-<path d="M150,150 L150,150 Q150,157.5,120,157.5 Q90,157.5,90,165 L90,165" fill="none" stroke="#ff0087" stroke-width="1"/>
-<circle cx="150" cy="150" fill="#ff0087" r="4" stroke="#ff0087" stroke-width="1"/>
-<path d="M90,165 L90,180 Q90,187.5,52.5,187.5 Q15,187.5,15,195 L15,195" fill="none" stroke="#ff8c00" stroke-width="1"/>
-<circle cx="90" cy="165" fill="#ff8c00" r="4" stroke="#ff8c00" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="180" y2="270"/>
-<path d="M135,180 L135,180 Q135,187.5,75,187.5 Q15,187.5,15,195 L15,195" fill="none" stroke="blue" stroke-width="1"/>
-<circle cx="135" cy="180" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="195" y2="210"/>
-<path d="M15,195 L15,195 Q15,202.5,45,202.5 Q75,202.5,75,210 L75,225" fill="none" stroke="purple" stroke-width="1"/>
-<circle cx="15" cy="195" fill="white" r="4" stroke="blue" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="210" y2="300"/>
-<circle cx="15" cy="210" fill="blue" r="4" stroke="blue" stroke-width="1"/>
-<line stroke="purple" stroke-width="1" x1="75" x2="75" y1="225" y2="240"/>
-<circle cx="75" cy="225" fill="purple" r="4" stroke="purple" stroke-width="1"/>
-<path d="M75,240 L75,285 Q75,292.5,45,292.5 Q15,292.5,15,300 L15,300" fill="none" stroke="purple" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="120" y2="195"/>
+<path d="M135,120 L135,120 Q135,127.5,75,127.5 Q15,127.5,15,135 L15,135" fill="none" stroke="blue" stroke-width="1"/>
+<circle cx="135" cy="120" fill="white" r="4" stroke="white" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="135" y2="210"/>
+<path d="M15,135 L15,135 Q15,142.5,52.5,142.5 Q90,142.5,90,150 L90,150" fill="none" stroke="#ff8c00" stroke-width="1"/>
+<circle cx="15" cy="135" fill="white" r="4" stroke="blue" stroke-width="1"/>
+<line stroke="#ff8c00" stroke-width="1" x1="90" x2="90" y1="150" y2="180"/>
+<path d="M90,150 L90,150 Q90,157.5,120,157.5 Q150,157.5,150,165 L150,165" fill="none" stroke="#ff0087" stroke-width="1"/>
+<circle cx="90" cy="150" fill="white" r="4" stroke="#ff8c00" stroke-width="1"/>
+<path d="M150,165 L150,165 Q150,172.5,120,172.5 Q90,172.5,90,180 L90,180" fill="none" stroke="#ff0087" stroke-width="1"/>
+<circle cx="150" cy="165" fill="#ff0087" r="4" stroke="#ff0087" stroke-width="1"/>
+<path d="M90,180 L90,195 Q90,202.5,52.5,202.5 Q15,202.5,15,210 L15,210" fill="none" stroke="#ff8c00" stroke-width="1"/>
+<circle cx="90" cy="180" fill="#ff8c00" r="4" stroke="#ff8c00" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="195" y2="285"/>
+<path d="M135,195 L135,195 Q135,202.5,75,202.5 Q15,202.5,15,210 L15,210" fill="none" stroke="blue" stroke-width="1"/>
+<circle cx="135" cy="195" fill="white" r="4" stroke="white" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="210" y2="225"/>
+<path d="M15,210 L15,210 Q15,217.5,45,217.5 Q75,217.5,75,225 L75,240" fill="none" stroke="purple" stroke-width="1"/>
+<circle cx="15" cy="210" fill="white" r="4" stroke="blue" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="225" y2="315"/>
+<circle cx="15" cy="225" fill="blue" r="4" stroke="blue" stroke-width="1"/>
+<line stroke="purple" stroke-width="1" x1="75" x2="75" y1="240" y2="255"/>
 <circle cx="75" cy="240" fill="purple" r="4" stroke="purple" stroke-width="1"/>
-<line stroke="green" stroke-width="1" x1="30" x2="30" y1="255" y2="375"/>
-<path d="M30,255 L30,255 Q30,262.5,82.5,262.5 Q135,262.5,135,270 L135,270" fill="none" stroke="white" stroke-width="1"/>
-<circle cx="30" cy="255" fill="white" r="4" stroke="green" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="270" y2="285"/>
-<path d="M135,270 L135,270 Q135,277.5,120,277.5 Q105,277.5,105,285 L105,510" fill="none" stroke="turquoise" stroke-width="1"/>
-<circle cx="135" cy="270" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="285" y2="315"/>
-<path d="M135,285 L135,285 Q135,292.5,75,292.5 Q15,292.5,15,300 L15,300" fill="none" stroke="blue" stroke-width="1"/>
+<path d="M75,255 L75,300 Q75,307.5,45,307.5 Q15,307.5,15,315 L15,315" fill="none" stroke="purple" stroke-width="1"/>
+<circle cx="75" cy="255" fill="purple" r="4" stroke="purple" stroke-width="1"/>
+<line stroke="green" stroke-width="1" x1="30" x2="30" y1="270" y2="390"/>
+<path d="M30,270 L30,270 Q30,277.5,82.5,277.5 Q135,277.5,135,285 L135,285" fill="none" stroke="white" stroke-width="1"/>
+<circle cx="30" cy="270" fill="white" r="4" stroke="green" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="285" y2="300"/>
+<path d="M135,285 L135,285 Q135,292.5,120,292.5 Q105,292.5,105,300 L105,525" fill="none" stroke="turquoise" stroke-width="1"/>
 <circle cx="135" cy="285" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="300" y2="330"/>
-<path d="M15,300 L15,300 Q15,307.5,30,307.5 Q45,307.5,45,315 L45,630" fill="none" stroke="orange" stroke-width="1"/>
-<circle cx="15" cy="300" fill="white" r="4" stroke="blue" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="315" y2="345"/>
-<path d="M135,315 L135,330 Q135,337.5,75,337.5 Q15,337.5,15,345 L15,360" fill="none" stroke="blue" stroke-width="1"/>
-<circle cx="135" cy="315" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="330" y2="360"/>
-<path d="M15,330 L15,330 Q15,337.5,75,337.5 Q135,337.5,135,345 L135,345" fill="none" stroke="white" stroke-width="1"/>
-<circle cx="15" cy="330" fill="white" r="4" stroke="blue" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="345" y2="405"/>
-<circle cx="135" cy="345" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="360" y2="390"/>
-<circle cx="15" cy="360" fill="blue" r="4" stroke="blue" stroke-width="1"/>
-<line stroke="green" stroke-width="1" x1="30" x2="30" y1="375" y2="435"/>
-<path d="M30,375 L30,375 Q30,382.5,82.5,382.5 Q135,382.5,135,390 L135,405" fill="none" stroke="white" stroke-width="1"/>
-<circle cx="30" cy="375" fill="white" r="4" stroke="green" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="390" y2="465"/>
-<path d="M15,390 L15,390 Q15,397.5,75,397.5 Q135,397.5,135,405 L135,405" fill="none" stroke="white" stroke-width="1"/>
-<circle cx="15" cy="390" fill="white" r="4" stroke="blue" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="405" y2="420"/>
-<circle cx="135" cy="405" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="420" y2="450"/>
-<path d="M135,420 L135,420 Q135,427.5,82.5,427.5 Q30,427.5,30,435 L30,435" fill="none" stroke="green" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="300" y2="330"/>
+<path d="M135,300 L135,300 Q135,307.5,75,307.5 Q15,307.5,15,315 L15,315" fill="none" stroke="blue" stroke-width="1"/>
+<circle cx="135" cy="300" fill="white" r="4" stroke="white" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="315" y2="345"/>
+<path d="M15,315 L15,315 Q15,322.5,30,322.5 Q45,322.5,45,330 L45,645" fill="none" stroke="orange" stroke-width="1"/>
+<circle cx="15" cy="315" fill="white" r="4" stroke="blue" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="330" y2="360"/>
+<path d="M135,330 L135,345 Q135,352.5,75,352.5 Q15,352.5,15,360 L15,375" fill="none" stroke="blue" stroke-width="1"/>
+<circle cx="135" cy="330" fill="white" r="4" stroke="white" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="345" y2="375"/>
+<path d="M15,345 L15,345 Q15,352.5,75,352.5 Q135,352.5,135,360 L135,360" fill="none" stroke="white" stroke-width="1"/>
+<circle cx="15" cy="345" fill="white" r="4" stroke="blue" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="360" y2="420"/>
+<circle cx="135" cy="360" fill="white" r="4" stroke="white" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="375" y2="405"/>
+<circle cx="15" cy="375" fill="blue" r="4" stroke="blue" stroke-width="1"/>
+<line stroke="green" stroke-width="1" x1="30" x2="30" y1="390" y2="450"/>
+<path d="M30,390 L30,390 Q30,397.5,82.5,397.5 Q135,397.5,135,405 L135,420" fill="none" stroke="white" stroke-width="1"/>
+<circle cx="30" cy="390" fill="white" r="4" stroke="green" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="405" y2="480"/>
+<path d="M15,405 L15,405 Q15,412.5,75,412.5 Q135,412.5,135,420 L135,420" fill="none" stroke="white" stroke-width="1"/>
+<circle cx="15" cy="405" fill="white" r="4" stroke="blue" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="420" y2="435"/>
 <circle cx="135" cy="420" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="green" stroke-width="1" x1="30" x2="30" y1="435" y2="540"/>
-<circle cx="30" cy="435" fill="green" r="4" stroke="green" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="450" y2="480"/>
-<path d="M135,450 L135,450 Q135,457.5,75,457.5 Q15,457.5,15,465 L15,465" fill="none" stroke="blue" stroke-width="1"/>
-<circle cx="135" cy="450" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="465" y2="645"/>
-<circle cx="15" cy="465" fill="blue" r="4" stroke="blue" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="480" y2="495"/>
-<path d="M135,480 L135,480 Q135,487.5,82.5,487.5 Q30,487.5,30,495 L30,540" fill="none" stroke="green" stroke-width="1"/>
-<circle cx="135" cy="480" fill="white" r="4" stroke="white" stroke-width="1"/>
-<line stroke="white" stroke-width="1" x1="135" x2="135" y1="495" y2="720"/>
-<path d="M135,495 L135,495 Q135,502.5,75,502.5 Q15,502.5,15,510 L15,645" fill="none" stroke="blue" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="435" y2="465"/>
+<path d="M135,435 L135,435 Q135,442.5,82.5,442.5 Q30,442.5,30,450 L30,450" fill="none" stroke="green" stroke-width="1"/>
+<circle cx="135" cy="435" fill="white" r="4" stroke="white" stroke-width="1"/>
+<line stroke="green" stroke-width="1" x1="30" x2="30" y1="450" y2="555"/>
+<circle cx="30" cy="450" fill="green" r="4" stroke="green" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="465" y2="495"/>
+<path d="M135,465 L135,465 Q135,472.5,75,472.5 Q15,472.5,15,480 L15,480" fill="none" stroke="blue" stroke-width="1"/>
+<circle cx="135" cy="465" fill="white" r="4" stroke="white" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="480" y2="660"/>
+<circle cx="15" cy="480" fill="blue" r="4" stroke="blue" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="495" y2="510"/>
+<path d="M135,495 L135,495 Q135,502.5,82.5,502.5 Q30,502.5,30,510 L30,555" fill="none" stroke="green" stroke-width="1"/>
 <circle cx="135" cy="495" fill="white" r="4" stroke="white" stroke-width="1"/>
-<path d="M105,510 L105,525 Q105,532.5,67.5,532.5 Q30,532.5,30,540 L30,540" fill="none" stroke="turquoise" stroke-width="1"/>
-<circle cx="105" cy="510" fill="turquoise" r="4" stroke="turquoise" stroke-width="1"/>
-<path d="M120,525 L120,525 Q120,532.5,75,532.5 Q30,532.5,30,540 L30,540" fill="none" stroke="gray" stroke-width="1"/>
-<circle cx="120" cy="525" fill="gray" r="4" stroke="gray" stroke-width="1"/>
-<line stroke="green" stroke-width="1" x1="30" x2="30" y1="540" y2="555"/>
-<circle cx="30" cy="540" fill="green" r="4" stroke="green" stroke-width="1"/>
+<line stroke="white" stroke-width="1" x1="135" x2="135" y1="510" y2="735"/>
+<path d="M135,510 L135,510 Q135,517.5,75,517.5 Q15,517.5,15,525 L15,660" fill="none" stroke="blue" stroke-width="1"/>
+<circle cx="135" cy="510" fill="white" r="4" stroke="white" stroke-width="1"/>
+<path d="M105,525 L105,540 Q105,547.5,67.5,547.5 Q30,547.5,30,555 L30,555" fill="none" stroke="turquoise" stroke-width="1"/>
+<circle cx="105" cy="525" fill="turquoise" r="4" stroke="turquoise" stroke-width="1"/>
+<path d="M120,540 L120,540 Q120,547.5,75,547.5 Q30,547.5,30,555 L30,555" fill="none" stroke="gray" stroke-width="1"/>
+<circle cx="120" cy="540" fill="gray" r="4" stroke="gray" stroke-width="1"/>
 <line stroke="green" stroke-width="1" x1="30" x2="30" y1="555" y2="570"/>
 <circle cx="30" cy="555" fill="green" r="4" stroke="green" stroke-width="1"/>
 <line stroke="green" stroke-width="1" x1="30" x2="30" y1="570" y2="585"/>
 <circle cx="30" cy="570" fill="green" r="4" stroke="green" stroke-width="1"/>
 <line stroke="green" stroke-width="1" x1="30" x2="30" y1="585" y2="600"/>
 <circle cx="30" cy="585" fill="green" r="4" stroke="green" stroke-width="1"/>
-<path d="M30,600 L30,705 Q30,712.5,82.5,712.5 Q135,712.5,135,720 L135,720" fill="none" stroke="green" stroke-width="1"/>
+<line stroke="green" stroke-width="1" x1="30" x2="30" y1="600" y2="615"/>
 <circle cx="30" cy="600" fill="green" r="4" stroke="green" stroke-width="1"/>
-<path d="M60,615 L60,630 Q60,637.5,37.5,637.5 Q15,637.5,15,645 L15,645" fill="none" stroke="red" stroke-width="1"/>
-<circle cx="60" cy="615" fill="red" r="4" stroke="red" stroke-width="1"/>
-<path d="M45,630 L45,630 Q45,637.5,30,637.5 Q15,637.5,15,645 L15,645" fill="none" stroke="orange" stroke-width="1"/>
-<circle cx="45" cy="630" fill="orange" r="4" stroke="orange" stroke-width="1"/>
-<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="645" y2="660"/>
-<circle cx="15" cy="645" fill="blue" r="4" stroke="blue" stroke-width="1"/>
+<path d="M30,615 L30,720 Q30,727.5,82.5,727.5 Q135,727.5,135,735 L135,735" fill="none" stroke="green" stroke-width="1"/>
+<circle cx="30" cy="615" fill="green" r="4" stroke="green" stroke-width="1"/>
+<path d="M60,630 L60,645 Q60,652.5,37.5,652.5 Q15,652.5,15,660 L15,660" fill="none" stroke="red" stroke-width="1"/>
+<circle cx="60" cy="630" fill="red" r="4" stroke="red" stroke-width="1"/>
+<path d="M45,645 L45,645 Q45,652.5,30,652.5 Q15,652.5,15,660 L15,660" fill="none" stroke="orange" stroke-width="1"/>
+<circle cx="45" cy="645" fill="orange" r="4" stroke="orange" stroke-width="1"/>
 <line stroke="blue" stroke-width="1" x1="15" x2="15" y1="660" y2="675"/>
 <circle cx="15" cy="660" fill="blue" r="4" stroke="blue" stroke-width="1"/>
 <line stroke="blue" stroke-width="1" x1="15" x2="15" y1="675" y2="690"/>
 <circle cx="15" cy="675" fill="blue" r="4" stroke="blue" stroke-width="1"/>
 <line stroke="blue" stroke-width="1" x1="15" x2="15" y1="690" y2="705"/>
 <circle cx="15" cy="690" fill="blue" r="4" stroke="blue" stroke-width="1"/>
-<path d="M15,705 L15,705 Q15,712.5,75,712.5 Q135,712.5,135,720 L135,720" fill="none" stroke="blue" stroke-width="1"/>
+<line stroke="blue" stroke-width="1" x1="15" x2="15" y1="705" y2="720"/>
 <circle cx="15" cy="705" fill="blue" r="4" stroke="blue" stroke-width="1"/>
-<circle cx="135" cy="720" fill="white" r="4" stroke="white" stroke-width="1"/>
+<path d="M15,720 L15,720 Q15,727.5,75,727.5 Q135,727.5,135,735 L135,735" fill="none" stroke="blue" stroke-width="1"/>
+<circle cx="15" cy="720" fill="blue" r="4" stroke="blue" stroke-width="1"/>
+<circle cx="135" cy="735" fill="white" r="4" stroke="white" stroke-width="1"/>
+<text x="180" y="19" fill="#c4c4c4" font-family="monospace" font-size="11">bbf678e Render graphs as native git-graph SVG instead of freeze-from-ANSI [Mira Mono]</text>
+<text x="180" y="34" fill="#c4c4c4" font-family="monospace" font-size="11">2f877e6 Reorder shadow lanes before main in graph models [Mira Mono]</text>
+<text x="180" y="49" fill="#c4c4c4" font-family="monospace" font-size="11">0fd8431 Add docs/ with branch graphs + README documenting the rich replay history [Mira Mono]</text>
+<text x="180" y="64" fill="#c4c4c4" font-family="monospace" font-size="11">c046db1 Merge: Fred's polish [Mira Mono]</text>
+<text x="180" y="79" fill="#c4c4c4" font-family="monospace" font-size="11">a6705f6 Fred: polish greeting (sparkle) [Fred Frontend]</text>
+<text x="180" y="94" fill="#c4c4c4" font-family="monospace" font-size="11">45f6f95 Fred: merge greeting bump [Fred Frontend]</text>
+<text x="180" y="109" fill="#c4c4c4" font-family="monospace" font-size="11">f4b518c Mira: frontend greeting mentions /payments [Mira Mono]</text>
+<text x="180" y="124" fill="#c4c4c4" font-family="monospace" font-size="11">cd0b040 Merge: pick up /payments rollout [Mira Mono]</text>
+<text x="180" y="139" fill="#c4c4c4" font-family="monospace" font-size="11">80f4df0 Bea: ship feature/payments [Bea Backend]</text>
+<text x="180" y="154" fill="#c4c4c4" font-family="monospace" font-size="11">9ee52c7 Bea: pick up Mira's wiring [Bea Backend]</text>
+<text x="180" y="169" fill="#c4c4c4" font-family="monospace" font-size="11">f2776d8 Mira: wire /payments route into server.js [Mira Mono]</text>
+<text x="180" y="184" fill="#c4c4c4" font-family="monospace" font-size="11">c7d70e4 Bea: scaffold /payments route [Bea Backend]</text>
+<text x="180" y="199" fill="#c4c4c4" font-family="monospace" font-size="11">f050368 Merge: Bea's cors + ratelimit notes [Mira Mono]</text>
+<text x="180" y="214" fill="#c4c4c4" font-family="monospace" font-size="11">290eedf Bea: ship feature/cors [Bea Backend]</text>
+<text x="180" y="229" fill="#c4c4c4" font-family="monospace" font-size="11">a656c01 Bea: notes on rate limiting [Bea Backend]</text>
+<text x="180" y="244" fill="#c4c4c4" font-family="monospace" font-size="11">5f00620 Bea: WIP cors handle preflight [Bea Backend]</text>
+<text x="180" y="259" fill="#c4c4c4" font-family="monospace" font-size="11">5a6be98 Bea: WIP cors middleware skeleton [Bea Backend]</text>
+<text x="180" y="274" fill="#c4c4c4" font-family="monospace" font-size="11">0335347 Fred: pick up Mira's dashboard ship [Fred Frontend]</text>
+<text x="180" y="289" fill="#c4c4c4" font-family="monospace" font-size="11">dc0e8b2 Mira: ship frontend/feature/dashboard [Mira Mono]</text>
+<text x="180" y="304" fill="#c4c4c4" font-family="monospace" font-size="11">89eee54 Merge: Bea shipped feature/auth [Mira Mono]</text>
+<text x="180" y="319" fill="#c4c4c4" font-family="monospace" font-size="11">a1a59ef Bea: ship feature/auth [Bea Backend]</text>
+<text x="180" y="334" fill="#c4c4c4" font-family="monospace" font-size="11">6de79da Mira: merge shadow (concurrent) [Mira Mono]</text>
+<text x="180" y="349" fill="#c4c4c4" font-family="monospace" font-size="11">5db2328 Bea: merge shadow (concurrent) [Bea Backend]</text>
+<text x="180" y="364" fill="#c4c4c4" font-family="monospace" font-size="11">3a2d85c Mira: bump backend greeting to v2 [Mira Mono]</text>
+<text x="180" y="379" fill="#c4c4c4" font-family="monospace" font-size="11">531196a Bea: add /version route [Bea Backend]</text>
+<text x="180" y="394" fill="#c4c4c4" font-family="monospace" font-size="11">064943d Merge: pick up Mira's brand doc [Fred Frontend]</text>
+<text x="180" y="409" fill="#c4c4c4" font-family="monospace" font-size="11">6cd309e Merge: pick up Mira's API doc [Bea Backend]</text>
+<text x="180" y="424" fill="#c4c4c4" font-family="monospace" font-size="11">8501d47 Mira: cross-cutting docs (root + backend/ + frontend/) [Mira Mono]</text>
+<text x="180" y="439" fill="#c4c4c4" font-family="monospace" font-size="11">68e05af Merge: pick up Fred's footer styling [Mira Mono]</text>
+<text x="180" y="454" fill="#c4c4c4" font-family="monospace" font-size="11">a535f0b Add footer styling [Fred Frontend]</text>
+<text x="180" y="469" fill="#c4c4c4" font-family="monospace" font-size="11">79809e7 Merge: pick up Bea's /health [Mira Mono]</text>
+<text x="180" y="484" fill="#c4c4c4" font-family="monospace" font-size="11">d71b465 Add /health route [Bea Backend]</text>
+<text x="180" y="499" fill="#c4c4c4" font-family="monospace" font-size="11">d6abace Merge: bootstrap frontend [Mira Mono]</text>
+<text x="180" y="514" fill="#c4c4c4" font-family="monospace" font-size="11">4888683 Merge: bootstrap backend [Mira Mono]</text>
+<text x="180" y="529" fill="#c4c4c4" font-family="monospace" font-size="11">82a89e6 WIP: dashboard scaffold [Fred Frontend]</text>
+<text x="180" y="544" fill="#c4c4c4" font-family="monospace" font-size="11">423ae2d Fix header overflow [Fred Frontend]</text>
+<text x="180" y="559" fill="#c4c4c4" font-family="monospace" font-size="11">eae6d08 Add greeting helper [Fred Frontend]</text>
+<text x="180" y="574" fill="#c4c4c4" font-family="monospace" font-size="11">57f1fab Add app.js [Fred Frontend]</text>
+<text x="180" y="589" fill="#c4c4c4" font-family="monospace" font-size="11">fb2873e Add main.css [Fred Frontend]</text>
+<text x="180" y="604" fill="#c4c4c4" font-family="monospace" font-size="11">db112c3 Add index.html [Fred Frontend]</text>
+<text x="180" y="619" fill="#c4c4c4" font-family="monospace" font-size="11">0c99598 Initial commit [Fred Frontend]</text>
+<text x="180" y="634" fill="#c4c4c4" font-family="monospace" font-size="11">24788fa WIP: db driver [Bea Backend]</text>
+<text x="180" y="649" fill="#c4c4c4" font-family="monospace" font-size="11">3c25448 WIP: auth middleware [Bea Backend]</text>
+<text x="180" y="664" fill="#c4c4c4" font-family="monospace" font-size="11">6903c86 Add greeting helper [Bea Backend]</text>
+<text x="180" y="679" fill="#c4c4c4" font-family="monospace" font-size="11">64b2d52 Add db config [Bea Backend]</text>
+<text x="180" y="694" fill="#c4c4c4" font-family="monospace" font-size="11">d910b50 Add /users route [Bea Backend]</text>
+<text x="180" y="709" fill="#c4c4c4" font-family="monospace" font-size="11">2ca72cd Add server skeleton [Bea Backend]</text>
+<text x="180" y="724" fill="#c4c4c4" font-family="monospace" font-size="11">e295e7d Initial commit [Bea Backend]</text>
+<text x="180" y="739" fill="#c4c4c4" font-family="monospace" font-size="11">4762a44 Initial monorepo commit [Mira Mono]</text>
 </svg>
