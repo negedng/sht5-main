@@ -4,13 +4,8 @@
 #  - feature/*             = each gets its own color, paired across repos
 
 persistence = [
-    "^main$",
     "^shadow/backend/main$",
-    "^feature/auth$",
-    "^feature/database$",
-    "^feature/cors$",
-    "^feature/payments$",
-    "^shadow/backend/feature/payments$",
+    "^main$",
 ]
 
 order = [
