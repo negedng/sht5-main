@@ -1,1 +1,1 @@
-module.exports = {greet:()=>'hello — try /payments!'};
+module.exports = {greet:()=>'hello ✨ — try /payments!'};
