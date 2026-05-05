@@ -6,6 +6,11 @@
 persistence = [
     "^shadow/backend/main$",
     "^main$",
+    "^feature/auth$",
+    "^feature/database$",
+    "^feature/cors$",
+    "^feature/payments$",
+    "^shadow/backend/feature/payments$",
 ]
 
 order = [

@@ -6,6 +6,9 @@
 persistence = [
     "^shadow/frontend/main$",
     "^main$",
+    "^feature/dashboard$",
+    "^fix/header-overflow$",
+    "^shadow/frontend/feature/payments$",
 ]
 
 order = [
